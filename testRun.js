@@ -108,7 +108,7 @@ import * as htmlButton from "/online-psychophysics/jspsych-psychophysics-master/
         timeline: [preload, pre_audio, trial],
         on_finish: function(){
             jsPsych.data.displayData();
-            url = "https://script.google.com/macros/s/AKfycbxwNw0FlJftm7NeuLHy4anEoHaFSZDq3nOoOoyKgTul9Qgz-NHoQgIukaN_MzBY4zfMxA/exec";
+            const url = "https://script.google.com/macros/s/AKfycbxwNw0FlJftm7NeuLHy4anEoHaFSZDq3nOoOoyKgTul9Qgz-NHoQgIukaN_MzBY4zfMxA/exec";
             jsPsychSheet.uploadData(url, jsPsych.data.get().csv())
         }
     });
