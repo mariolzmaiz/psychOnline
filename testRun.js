@@ -1,4 +1,4 @@
-import * as jspsych from "/online-psychophysics/jspsych-psychophysics-master/js/jspsych.js";
+import * as jspsych from "./online-psychophysics/jspsych-psychophysics-master/js/jspsych.js";
 import * as psychophysics from "/online-psychophysics/jspsych-psychophysics-master/jspsych-psychophysics.js";
 import * as preloaded from "/online-psychophysics/jspsych-psychophysics-master/js/jspsych-preload.js";
 import * as htmlButton from "/online-psychophysics/jspsych-psychophysics-master/js/jspsych-html-button-response.js";
