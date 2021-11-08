@@ -1,7 +1,7 @@
 import * as jspsych from "./online-psychophysics/jspsych-psychophysics-master/js/jspsych.js";
-import * as psychophysics from "/online-psychophysics/jspsych-psychophysics-master/jspsych-psychophysics.js";
-import * as preloaded from "/online-psychophysics/jspsych-psychophysics-master/js/jspsych-preload.js";
-import * as htmlButton from "/online-psychophysics/jspsych-psychophysics-master/js/jspsych-html-button-response.js";
+import * as psychophysics from "./online-psychophysics/jspsych-psychophysics-master/jspsych-psychophysics.js";
+import * as preloaded from "./online-psychophysics/jspsych-psychophysics-master/js/jspsych-preload.js";
+import * as htmlButton from "./online-psychophysics/jspsych-psychophysics-master/js/jspsych-html-button-response.js";
         
 
     const timeList = [];
@@ -20,8 +20,8 @@ import * as htmlButton from "/online-psychophysics/jspsych-psychophysics-master/
       };
       
     const sounds = [ // All the sound files used in this demo
-        '/online-psychophysics/jspsych-psychophysics-master/demos/sound/tone100ms.wav',
-        '/online-psychophysics/jspsych-psychophysics-master/demos/sound/880Hz_100ms.wav'
+        './online-psychophysics/jspsych-psychophysics-master/demos/sound/tone100ms.wav',
+        './online-psychophysics/jspsych-psychophysics-master/demos/sound/880Hz_100ms.wav'
     ];
 
     // Preloading files are needed to present the stimuli accurately.
